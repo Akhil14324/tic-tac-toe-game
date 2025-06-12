@@ -104,7 +104,7 @@ public class TicTacToe {
             if (result == 1 || result == 2) {
                 displayBoard();
                 String winner = (result == 1) ? player1 : player2;
-                System.out.println("🎉 Congratulations " + winner + "! You have won the game! 🎉");
+                System.out.println(" Congratulations " + winner + "! You have won the game! ");
                 break;
             }
 
